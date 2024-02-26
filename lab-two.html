@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Lab 2:Software Design Website</title>   
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                color: white;
+                background-color: black;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-around;
+                gap: 0;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            ul {
+                list-style: none;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: flex-end;
+                align-items: center;
+                gap: 10px;
+                
+            }
+            a{
+                color: white;
+                text-decoration: none;
+                padding: 0;
+
+            }
+            
+            main {
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+               
+                
+            }
+            article {
+                text-align: center;
+            }
+            table, td {
+                text-align: center;
+                padding: 10px;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+           
+            h3, p {
+               padding: 0;
+               margin: 0;
+            }
+            footer {
+                display: flex;
+                position:fixed;
+                width: 100%;
+                margin-top: 10px;
+                bottom:0;
+                height: 30px;
+                color: white;
+                background-color: black;
+                justify-content: center;
+                align-items: center;
+                
+            }
+        </style>    
+    </head>
+    <body>  
+        <header>
+            <h2>Welcome to Software Design Website</h2>
+            <nav> 
+                <ul>
+                    <li><b><a href="">About Us</a></b></li>
+                    <li><b><a href="">Services</a></b></li>
+                    <li><b><a href="">Contact Us</a></b></li>
+                </ul>
+                   
+            </nav>
+       </header>
+
+       <main>
+        <h3><b>About Us</b></h3>
+            <article>
+                 <p>We are a company dedicated to providing excellent services to our customers.</p>
+                <img src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg" width="600" height="400">
+            </article>
+           <br>
+        
+        <h3><b>Our Services</b></h3>
+        <table>
+            <tr>
+                <td>
+                    <h3><b>Web Development</b></h3>
+                    <p>We specialize in creating responsive and user-friendly websites.</p>
+                    <img src="https://images.pexels.com/photos/1181376/pexels-photo-1181376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="600" height="400">
+                </td>
+                
+                <td>
+                    <h3><b>Graphic Design</b></h3>
+                    <p>Our talented designers can bring your ideas to life with stunning visuals.</p>
+                    <img src="https://images.pexels.com/photos/6322369/pexels-photo-6322369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="600" height="400">
+                </td>
+            </tr>
+        </table>  
+          
+       </main>
+       <br><br>
+        <footer>
+            © 2024 The Lucky Company. All rights reserved.
+       </footer>  
+       
+    </body>
+</html>
